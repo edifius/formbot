@@ -50,8 +50,7 @@ class EmergencyForm(FormAction):
                 "caller_callback_number": self.from_entity(entity="caller_callback_number",
                                             intent="phone_number"),
 
-                "caller_message": [self.from_entity(entity="caller_message"),
-                             self.from_text()]}
+                "caller_message": self.from_text()}
 
 #    @staticmethod
 #    def is_int(string: Text) -> bool:

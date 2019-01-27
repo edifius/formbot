@@ -1,0 +1,90 @@
+{
+    "rasa_nlu_data": {
+      "common_examples": [
+        {
+          "text": "Adrian",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 0,
+              "end": 6,
+              "value": "Adrian",
+              "entity": "caller_first_name"
+            }
+          ]
+        },
+        {
+          "text": "Hello my name is Adrian",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 17,
+              "end": 23,
+              "value": "Adrian",
+              "entity": "caller_first_name"
+            }
+          ]
+        },
+        {
+          "text": "My name is Jackson",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 11,
+              "end": 18,
+              "value": "Jackson",
+              "entity": "caller_first_name"
+            }
+          ]
+        },
+        {
+          "text": "My name is Barak Obama",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 11,
+              "end": 16,
+              "value": "Barak",
+              "entity": "caller_first_name"
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "value": "Obama",
+              "entity": "caller_last_name"
+            }
+          ]
+        },
+        {
+          "text": "Michael Jackson",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 0,
+              "end": 7,
+              "value": "Michael",
+              "entity": "caller_first_name"
+            },
+            {
+              "start": 8,
+              "end": 15,
+              "value": "Jackson",
+              "entity": "caller_last_name"
+            }
+          ]
+        },
+        {
+          "text": "My name is Simba",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 11,
+              "end": 16,
+              "value": "Simba",
+              "entity": "caller_first_name"
+            }
+          ]
+        }
+      ]
+    }
+  }
