@@ -13,7 +13,7 @@ from twilio.rest import Client
 #account_sid = os.environ["TWILIO_ACCOUNT_SID"]
 
 account_sid = "AC8dd7c3947acb406b1dddd6a4bfeedc89"
-auth_token = "2BF75A7799C79BCA152D423526132D14"
+auth_token = "2bf75a7799c79bca152d423526132d14"
 
 clientTwilio = Client(account_sid, auth_token)
 
@@ -68,7 +68,7 @@ class EmergencyForm(FormAction):
 
         clientTwilio.messages.create(
                 to="+16194837869",
-                from_="+16194837869",
+                from_="+16193040039",
                 body="Congrats!"
         )
         # utter submit template
