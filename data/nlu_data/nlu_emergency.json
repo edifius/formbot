@@ -1,0 +1,1010 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hi, my name is bill",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "bill",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "i'm cheryl",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "cheryl",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "hi, abby. it's nice to talk to you. my name's julie",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 46,
+            "end": 51,
+            "value": "julie",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "good day. hey. i'm olivia.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "olivia",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "joe",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "joe",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "charlie",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "charlie",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "hey. jonathan",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "jonathan",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "hi, my name is jewels",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "jewels",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "i'm sherry",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "sherry",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "hi, abby. my name's alexa",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "alexa",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "good day. hey. i'm denzel.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "denzel",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "joseph",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "joseph",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "benjamin",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "benjamin",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "hey. it's bernard",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "bernard",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "my name is larry",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "larry",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "i'm zoe",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "zoe",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "hi, abby. i'm alonzo",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "alonzo",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "hey. i'm belinda.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "belinda",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "sabrina",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "sabrina",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "herbert",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "herbert",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "it's bates",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "bates",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "russell",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "russell",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "my last name's johnson",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "johnson",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "it's ingles",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "ingles",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "jackson",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "jackson",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "my last name is williams",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "williams",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "it's johnson",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "johnson",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "smith",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "smith",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "my last name's nelson",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "nelson",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "it's newton",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "newton",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "einstein",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "einstein",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "my last name is robinson",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "robinson",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "it's buck",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "buck",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "cooper",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "cooper",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "my last name's blitzer",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "blitzer",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "it's boyd",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "boyd",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "preston",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "preston",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "my last name is phillips",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "phillips",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "my last name is frazier",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "frazier",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "my number is 1234567899",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "1234567899",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "3949384756",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "3949384756",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "my callback number is 3948503945",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "value": "3948503945",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "it's 2839594872",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "2839594872",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "abby, my number is 4850912847",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "4850912847",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "have them call me on my cell. it's 3294853928",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 35,
+            "end": 45,
+            "value": "3294853928",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "i'm at work so use 2719049573",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "2719049573",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "my number is 5049584930",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "5049584930",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "5604394756",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "5604394756",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "my callback number is 4304958673",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "value": "4304958673",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "it's 1259483725",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "1259483725",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "abby, my number is 8973849520",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "8973849520",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "have them call me on my cell. it's 4365093475",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 35,
+            "end": 45,
+            "value": "4365093475",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "4395406827",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "4395406827",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "my number is 5495832500",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "5495832500",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "4530695834",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "4530695834",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "my callback number is 3245934810",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "value": "3245934810",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "it's 1280471095",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "1280471095",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "it's 4540933259",
+        "intent": "phone_number",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "4540933259",
+            "entity": "caller_callback_number"
+          }
+        ]
+      },
+      {
+        "text": "my daughter is waiting for the driver in the rain",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 49,
+            "value": "my daughter is waiting for the driver in the rain",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "it's anderson, ma'am",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "anderson",
+            "entity": "caller_last_name"
+          }
+        ]
+      },
+      {
+        "text": "my daughter is waiting for the driver in the rain",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 49,
+            "value": "my daughter is waiting for the driver in the rain",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "my child will be late for his pickup. i need the driver to wait 10 minutes for him.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 83,
+            "value": "my child will be late for his pickup. i need the driver to wait 10 minutes for him.",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "i need the driver to wait about 5 minutes. i'm running late.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 60,
+            "value": "i need the driver to wait about 5 minutes. i'm running late.",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "i need to cancel today's ride for my child",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 42,
+            "value": "i need to cancel today's ride for my child",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "my daughter needs to be dropped off at her father's house today",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 63,
+            "value": "my daughter needs to be dropped off at her father's house today",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "my son needs to be picked up from his cousin's house",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 52,
+            "value": "my son needs to be picked up from his cousin's house",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "please ask the driver to wait a few more minutes. my daughter should be out in less than 2 minutes.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 99,
+            "value": "please ask the driver to wait a few more minutes. my daughter should be out in less than 2 minutes.",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "i need an early pickup for my child today",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 41,
+            "value": "i need an early pickup for my child today",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "my daughter needs to go to urgent care. i need the driver to drop her off there instead on home.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 96,
+            "value": "my daughter needs to go to urgent care. i need the driver to drop her off there instead on home.",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "please make sure my daughter gets into the house safely. there's been suspicious activity reported in our neighborhood.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 119,
+            "value": "please make sure my daughter gets into the house safely. there's been suspicious activity reported in our neighborhood.",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "have driver make sure my son turns the outside lights on before he drives off",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 77,
+            "value": "have driver make sure my son turns the outside lights on before he drives off",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "i'm running late.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "i'm running late.",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "i need to cancel pickup today",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "i need to cancel pickup today",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "i need to change pickup location",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "i need to change pickup location",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "my child is sick today",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "my child is sick today",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "my daughter is on her way out now",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "value": "my daughter is on her way out now",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "i need an early pickup today",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "i need an early pickup today",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "my daughter needs to be dropped off at a care center",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 52,
+            "value": "my daughter needs to be dropped off at a care center",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "please ask the driver to make sure my daughter gets into the house safely before driving off",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 92,
+            "value": "please ask the driver to make sure my daughter gets into the house safely before driving off",
+            "entity": "caller_message"
+          }
+        ]
+      },
+      {
+        "text": "I have an emergency",
+        "intent": "emergency",
+        "entities": []
+      },
+      {
+        "text": "we have an emergency",
+        "intent": "emergency",
+        "entities": []
+      },
+      {
+        "text": "i need to report an emergency",
+        "intent": "emergency",
+        "entities": []
+      },
+      {
+        "text": "can you help me with an emergency?",
+        "intent": "emergency",
+        "entities": []
+      },
+      {
+        "text": "i have an urgent matter",
+        "intent": "emergency",
+        "entities": []
+      },
+      {
+        "text": "can you help me with an urgent matter?",
+        "intent": "emergency",
+        "entities": []
+      },
+      {
+        "text": "this is an emergency",
+        "intent": "emergency",
+        "entities": []
+      },
+      {
+        "text": "this is urgent",
+        "intent": "emergency",
+        "entities": []
+      },
+      {
+        "text": "i need to report an urgent matter",
+        "intent": "emergency",
+        "entities": []
+      },
+      {
+        "text": "i have an urgent matter to report",
+        "intent": "emergency",
+        "entities": []
+      }
+    ],
+    "regex_features": [
+      {
+        "pattern": "[0-9]{10}",
+        "name": "caller_callback_number"
+      }
+    ]
+  }
+}

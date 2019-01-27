@@ -1,0 +1,341 @@
+slots:
+  caller_first_name:
+    type: unfeaturized
+    auto_fill: false
+  caller_last_name:
+    type: unfeaturized
+    auto_fill: false
+  caller_callback_number:
+    type: unfeaturized
+    auto_fill: false
+  caller_message:
+    type: unfeaturized
+    auto_fill: false
+  requested_slot:
+    type: unfeaturized
+  emergency_form_finished:
+    type: text
+
+
+intents:
+  - initiate_call
+  - end_call
+  - greet
+  - greet_feeling
+  - inform_greet_with_question
+  - goodbye
+  - confirm
+  - deny
+  - chitchat:
+      use_entities: false
+  - inform:
+      use_entities: true
+  - emergency:
+      use_entities: false
+  - inform_greeting
+  - pickup_location
+  - ages
+  - dropff_location
+  - payment_tracks
+  - riders
+  - driver
+  - sickdays
+  - discount
+  - other_routes
+  - reservations
+  - service_cost
+  - registration
+  - driver_presence
+  - military_discounts
+  - service_breaks
+  - cancellation_policy
+  - service_drivers
+  - gps_tracking
+  - service_app
+  - service_vehicles
+  - our_drivers
+  - advanced_booking
+  - service_hours
+  - service_areas
+  - pickup_tomorrow
+  - payments
+  - deposit
+  - kinder_child
+  - daily_rate
+  - transportation_times
+  - older_child
+
+
+entities:
+  - caller_first_name
+  - caller_last_name
+  - caller_callback_number
+  - caller_message
+  - requested_slot
+  - number
+
+
+templates:
+
+  utter_greet:
+    - "Hi. This is Abby. We look forward to servicing your transportation needs. Is this an emergency?"
+
+  utter_greet2:
+    - "Hi there."
+    - "Hi"
+    - "Hello"
+
+  utter_emergency:
+    - "Ok. I'll need to get a few pieces of information from you and then will send the message off immediately."
+
+  utter_ask_caller_first_name:
+    - "May I get your first name, please?"
+
+  utter_ask_caller_last_name:
+    - "What's your last name?"
+
+  utter_ask_caller_callback_number:
+    - "What's a good callback number for you, including area code?"
+
+  utter_ask_caller_message:
+    - "And, briefly describe what the emergency is."
+
+
+  utter_confirm_message:
+    - "I've capture all information required for the emergency. Let me repeat it back to you to make sure I got it right. {caller_first_name} {caller_last_name} with the callback number {caller_callback_number} and the message {caller_message}. Are these details correct?"
+
+  utter_wrong_message_info:
+    - "My apologies, {caller_first_name}. Let's try it again."
+
+  utter_message_sent:
+    - "Your message has been sent."
+
+  utter_ask_name:
+    - "And, who do I have the pleasure of speaking to?"
+    - "Good to hear. Can I get your name, please?"
+    - "And, what's your name?"
+    - "Sounds good. Can I get your name?"
+
+  utter_greet_how_is_caller_doing:
+    - "How are you today?"
+    - "You doing okay today?"
+    - "How is your day going?"
+    - "You doing good today?"
+    - "How's the day treating you so far?"
+
+  utter_greet_how_are_you:
+    - "Doing great, thanks!"
+    - "I'm doing well. Appreciate you asking."
+    - "I'm doing very well. Thanks!"
+    - "Feeling wonderful!"
+    - "Wonderful! Thanks for asking."
+    - "Doing pretty good."
+    - "I'm doing wonderful. Thanks for asking."
+    - "I'm fantastic!"
+
+  utter_how_to_help:
+    - "How can I help you today, {caller_first_name}?"
+    - "How can I serve you today, {caller_first_name}?"
+    - "How can I help, {caller_first_name}?"
+    - "How can I help you, {caller_first_name}"
+    - "What can I do for you, {caller_first_name}?"
+
+  utter_more_help:
+    - "Is there anything else I can help you with?"
+    - "May I help you with anything else?"
+    - "What else can I do for you?"
+    - "Do you need anything else?"
+    - "What else can I help you with?"
+
+  utter_more_help2:
+    - "Sure. What else can I help you with?"
+    - "My pleasure. What else can I do for you?"
+    - "I'm glad to help. What else can I help you with?"
+    - "Sure. What's up?"
+    - "Not a problem. What else can I help you with?"
+    - "Sounds good. What else do you need?"
+
+  utter_goodbye:
+    - "It's been a pleasure serving you, {caller_first_name}. Have a wonderful day."
+    - "If there's nothing else I can help you with, have a wonderful day."
+    - "It's been a pleasure serving you, {caller_first_name}. Bye now."
+    - "Talk to you soon, {caller_first_name}"
+    - "It was a pleasure serving you today. Have a wonderful and blessed day. Good bye."
+    - "Till next time. Bye {caller_first_name}"
+    - "Bye, {caller_first_name}."
+
+  utter_pickup_location:
+    - "We are a door to door service. We will pick your child up from home and drop them off and sign them in, if applicable, at school."
+
+  utter_ages:
+    - "We provide service for grades K through 12th grade."
+
+  utter_dropff_location:
+    - "We allow you to provide an alternate drop off location, witin a maximum of 5 miles for the original dropoff location. Requests must be made through customer service."
+
+  utter_payment_tracks:
+    - "Abby offers 3 different payment tracks for parents. However, the maximum subscription is 12 weeks long."
+
+  utter_riders:
+    - "Having a private car is an option as a premium service. Our service operates on a carpool and there’s no guarantee that your child will be the only one in the car. You will need to upgrade to a private car for private service."
+
+  utter_driver:
+    - "We have the same driver normally, which gives the parents peace of mind and allows friendly face recognition for the child and school staff. We do have a backup driver for each route in place for unforeseen occurrences."
+
+  utter_sickdays:
+    - "Our service is pre-paid, however we do understand that sometimes emergencies happen. We allow 3 sick day credits in a school year."
+
+  utter_discount:
+    - "If students are being picked up and dropped off to the same location, for every two students one student will be 50% off."
+
+  utter_other_routes:
+    - "We offer service for all your transportation needs. Please inquire about our availability."
+
+  utter_reservations:
+    - "Fill out the registration form and agree to the terms. After we receive your registration, one of our friendly customer service agents will contact you to confirm and finalize your registration. Once everything has been finalized you will be sent a link to make your payment via PayPal. Payments are due weekly or biweekly. Weekly payments must be made on Friday in advance for the upcoming week. Payments must received by 6pm."
+
+  utter_service_cost:
+    - "Cost of our services vary depending on distance, time of day, number of children and frequency. However, we can advise you that our base rate begins at $16 per trip and a subscription price is available."
+
+  utter_pickup_tomorrow:
+    - "Our routes are planned a week in advance. However, if your child’s school falls within an existing route we may be able to accommodate. It is best to email customercare@kiddiecommute.net to confirm driver availability."
+
+  utter_service_areas:
+    - "We currently service South San Diego, East County, Central San Diego, and North County."
+
+  utter_service_hours:
+    - "Our hours of operation are 8 am to 6 pm, however our dispatch team is available as early as 6:30 am if your child is on a morning route."
+
+  utter_advanced_booking:
+    - "We plan our routes the Thursday before routes take place. however, we can on some circumstances accommodate routes with 48 hours advance notice if your child fits on a carpool."
+
+  utter_our_drivers:
+    - "Our drivers are moms, teachers, nannies and caregivers. We pick our drivers based on their personalities and availability as it takes a particular person to do our type of business and we want to ensure they are a good fit."
+
+  utter_service_vehicles:
+    - "Our drivers do use their own vehicles. however, all vehicles must pass a 19-point inspection and be 12 years or newer. do not have vans."
+
+  utter_service_app:
+    - "We do not currently have an app, however, our dispatch team does use software to constantly update us on the drivers whereabouts."
+
+  utter_gps_tracking:
+    - "Currently we do not have GPS tracking but have consistent updates on drivers status."
+
+  utter_service_drivers:
+    - "We do our best to keep drivers as consistent as possible. However, due to route optimization, another driver may be assigned to your route as well."
+
+  utter_cancellation_policy:
+    - "if you cancel your subscription their is a fee of $50. If you cancel a route after the Thursday prior, there is no reimbursement."
+
+  utter_service_breaks:
+    - "The only break that we pause for is Summer and Winter break and this is for a holding fee. All other breaks are continued. If parents would like transportation elsewhere over break we can accomodate for these situations."
+
+  utter_military_discounts:
+    - "Yes, we do. We offer a 10% discount for military families."
+
+  utter_driver_presence:
+    - "we recommend parents provide a cell phone number for your child to find their driver easy. However, if a phone number is not provided we recommend all students meet at the front of the school so they can locate our Abby branding easily."
+
+  utter_registration:
+    - "there is a $25 membership fee. Please visit our website at www.kiddiecommute.com to register for our service."
+
+  utter_payments:
+    - "Payments are due weekly or biweekly. Weekly payments must be made on Friday in advance for the upcoming week. Payments must received by 6pm."
+
+  utter_deposit:
+    - "We do require a non refundable deposit for start dates that are more than 2 weeks away to guarantee space and driver availability. Deposit is 1 week of your weekly rate and will go towards your total cost of transportation."
+
+  utter_kinder_child:
+    - "We make every effort to group riders that go to the same school. However, parents of Kinder students that have to be walked in and received from class, will incur an additional waiting fee that will be added to the subscription. Please inquire for more information."
+
+  utter_daily_rate:
+    - "Our daily rate depends on the distance and time of day needed. We need a 48 hour advance notice to utilize and space availability is on a first come basis. Please call us at 619-254-6500 for a specific quote."
+
+  utter_transportation_times:
+    - "We will provide you with the pickup time 1 week before the session starts. If there are any adjustments to the pickup time you will be notified 48 hours in advance."
+
+  utter_older_child:
+    - "We transport many older students that want to take part in extracurricular activities that are not located in their neighborhoods. Our drivers will arrive, on request, without the decals so that no one will ever know your student is riding in a Abby vehicle."
+
+  utter_question_answered:
+    - "Did I answer your question?"
+
+  utter_still_learning:
+    - "My apologies, {caller_first_name}. I'm still in training. Please rephrase for me."
+    - "Ahhh... So sorry. I'm still being trained. Can you rephrase please?"
+    - "{caller_first_name}, please bear with me. I'm still being trained. Please rephrase."
+    - "{caller_first_name}, I'm sorry. You know, I'm still in training. Can you rephrase please?"
+
+  utter_exit_chitchat:
+    - "In respect of your time, what else can I help you with?"
+    - "I would love to talk longer, but other calls are coming in. Is there something else I can help you with?"
+    - "Haha... Enough of this chit-chat. What else can I do for you, {caller_first_name}?"
+    - "I really enjoy talking to you. But, I do need to answer more calls. What else can I help you with?"
+
+  utter_chitchat:
+    - "ahhh."
+    - "I hear you."
+    - "Mm-hmm."
+    - "hmmm."
+    - "Uh huh."
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_name
+  - utter_greet_how_is_caller_doing
+  - utter_greet2
+  - utter_answer_greet_how_to_help
+  - utter_greet_how_are_you
+  - utter_how_to_help
+  - utter_pickup_location
+  - utter_ages
+  - utter_dropff_location
+  - utter_payment_tracks
+  - utter_riders
+  - utter_driver
+  - utter_sickdays
+  - utter_discount
+  - utter_other_routes
+  - utter_reservations
+  - utter_service_cost
+  - utter_pickup_tomorrow
+  - utter_service_areas
+  - utter_service_hours
+  - utter_advanced_booking
+  - utter_our_drivers
+  - utter_service_vehicles
+  - utter_service_app
+  - utter_gps_tracking
+  - utter_service_drivers
+  - utter_cancellation_policy
+  - utter_service_breaks
+  - utter_military_discounts
+  - utter_driver_presence
+  - utter_registration
+  - utter_payments
+  - utter_deposit
+  - utter_kinder_child
+  - utter_daily_rate
+  - utter_transportation_times
+  - utter_older_child
+  - utter_question_answered
+  - utter_more_help
+  - utter_more_help2
+  - utter_exit_chitchat
+  - utter_chitchat
+  - utter_emergency
+  - utter_ask_caller_first_name
+  - utter_ask_caller_last_name
+  - utter_ask_caller_callback_number
+  - utter_ask_caller_message
+  - utter_confirm_message
+  - utter_wrong_message_info
+  - utter_wrong_caller_details
+  - utter_message_sent
+  - utter_still_learning
+  - action_transfer_to_live_agent
+  - action_end_call
+
+forms:
+  - action_emergency_form

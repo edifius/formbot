@@ -1,0 +1,106 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "i'm bored out of my mind",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "i'm already bored",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "it's very boring",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "we're all bored",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "this is boring",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "it's boring",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "i was bored",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "i've never been more bored",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "i'm kinda bored today",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "i am very bored",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "i had a slow day",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "it bores me",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "very boring",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "staying at home is boring",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "i am getting bored",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "boring",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "bored",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "i'm bored",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "that was boring",
+        "intent": "user_bored",
+        "entities": []
+      },
+      {
+        "text": "so bored",
+        "intent": "user_bored",
+        "entities": []
+      }
+    ]
+  }
+}

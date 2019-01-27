@@ -1,0 +1,273 @@
+## intent:ages
+- what ages do you service?
+- do you service older children?
+- do you provide rides for teenagers?
+- can teenagers ride?
+- is there a minimum age requirement for my child?
+- is there a maximum age for my child to be picked up?
+- what's the youngest my child can be for your service?
+- what's the age limit for your service?
+- do you transport infants?
+
+## intent:confirm
+- yes
+- yes
+
+## intent:daily_rate
+- do you have a daily rate?
+- what's the daily rate?
+- how do daily rates work?
+
+## intent:deposit
+- is there a deposit?
+- do i have to pay a deposit?
+- do you require a deposit?
+- how much is the deposit?
+- are deposits refundable?
+- how much is the deposit?
+- why do i need to pay a deposit?
+- what if the deposit for?
+- Is the deposit refundable?
+
+## intent:discount
+- do you offer discounts?
+- what discounts do you offer?
+- tell me about discounts
+- what is your discount policy?
+- tell me about your discount policy
+- can you tell me about discounts?
+- how may kids can i have to get a discount?
+- can i get a discount?
+- what type of discounts do you offer?
+- do you have any sibling discounts?
+- can i get a discount if I have more than one child?
+- how do you handle the cost for multiple children?
+
+## intent:driver
+- will it be the same driver that will pick up my child daily?
+- who will drive my child?
+- will the drivers change every day?
+- will the driver be the same person each day?
+
+## intent:dropoff_location
+- is my child able to be dropped off at a different location other than my home?
+- can my child be dropped off anywhere?
+- where will my child be dropped off?
+- can the drop off location be different than my house?
+- what are my choices for drop off locations?
+
+## intent:goodbye
+- nothing more. bye.
+
+## intent:inform
+- [joe](caller_first_name)
+- [humphrey](caller_last_name)
+- [my daughter's waiting in the rain](caller_message:my daughter 's waiting in the rain)
+
+## intent:initiate_call
+- /initiate_call
+
+## intent:kinder_child
+- where will the other kids be at while my Kinder child is walked into school or picked up from class?
+- how do you handle kinder children?
+- will my kinder child be walked into the building?
+- is this safe for my kinder child?
+
+## intent:older_child
+- my child is older and apprehensive about driving in an Abby car. do you transport older children?
+- can older kids ride?
+- can teenagers ride?
+- do you pickup and drop off older kids?
+- how does your service work for older kids?
+- do you transport older kids?
+- can older kids get dropped off?
+
+## intent:other_routes
+- can we use you for our other transportation needs such as summer camp, concerts, birthday parties, extracurricular activities, and weekend?
+- can my child be transported to location other than school and home?
+- what are the options for transportation other than school or home?
+- my child is enrolled in summer camp. can he be picked up and dropped off there?
+- where else can my child be transported other than school?
+- can i get a pickup for afterschool activities?
+- what locations can my child get dropped off to other than school?
+
+## intent:payment_tracks
+- can i pay in advance for the entire school year?
+- do i have to pay in advance?
+- how do i pay?
+- what's the payment terms?
+- how long is the subscription service?
+
+## intent:payments
+- how do i make payments?
+- how are payments made?
+- how often are payments due?
+- when are payments due?
+- how do i pay?
+
+## intent:phone_number
+- [7708345678](caller_callback_number)
+
+## intent:pickup_location
+- will my child be picked up from home or a pickup location?
+- where will my child be picked up?
+- can my child be picked up from home?
+- can my child be picked up from school?
+- how does the pickup work?
+- where can pickup locations be?
+- tell me about where my child will be picked up
+- can you explain how pickups work?
+
+## intent:reservations
+- how do i reserve my space?
+- how do reservations work?
+- how do i go about reserving a seat for my child?
+- do i call you to make a reservation?
+
+## intent:riders
+- will my child be the only one in the vehicle?
+- who else will be in the car with my child?
+- how many other children will be in the car with my child?
+- can my child be the only passenger in the vehicle?
+- what's the maximum number of children in the car?
+
+## intent:service_cost
+- how much am i going to come out of pocket for your service?
+- how much am i gonna come out of pocket for this?
+- how much do your services cost?
+- what's the cost of your service?
+- how much will i be charged for your service?
+- can you give me an idea of how much it costs for my kids to ride?
+- what fees do you charge?
+- what fees do you charge for your service?
+- how much is this going to cost me?
+- is your service expensive?
+
+## intent:pickup_tomorrow
+- can i get a pickup tomorrow?
+- can my child get a pickup tomorrow?
+- how soon can my child start getting picked up?
+- how long after signing up for your service do we have to wait before my child starts getting picked up?
+- how soon can we start using your service?
+- if i pay today, can my child start getting picked up tomorrow?
+
+## intent:service_areas
+- what areas do you service?
+- do you service san diego?
+- do you service east county?
+- do you service central san diego?
+- do you service north county?
+- how braod of an area do you service?
+
+## intent:service_hours
+- what are your service hours?
+- what are the hours you transport?
+- what hours of the day do you transport children?
+- what hours of the day do you transport?
+- how early do your service start?
+- how late can riders use your service?
+- how late in the day do you service your customers?
+- how early in the day do your service start?
+
+## intent:advanced_booking
+- how far in advance do I have to book?
+- do i have to book my child's ride in advance?
+- is advanced booking required?
+- can i book in advance and get service the next day?
+- do rides have to be scheduled in advance?
+
+## intent:our_drivers
+- who are your drivers?
+- how do you pick your drivers?
+- do your drivers go through a vetting process?
+- can i trust your drivers?
+- how can i trust your drivers with my child?
+- i'm concerned about trusting your drivers with my child?
+- can your drivers be trusted?
+- will my child be protected by your drivers?
+- as a mom, do i need to be worried about the safety of my child with your driver?
+
+## intent:service_vehicles
+- do you have vans?
+- what type of cars are driven?
+- do you make sure the cars are safe?
+- are the vehicles safe for my child to ride in?
+- what type of cars do you use?
+- what type of vehicles do you use?
+- who owns the cars?
+- do you own the cars that the children ride in?
+- are personal cars used?
+- do your service use personal cars?
+
+## intent:service_app
+- is there an app i can download?
+- do you have an app?
+- can i use your service from an app?
+- can i download your app?
+- where can i download your app?
+- is your service available on an app?
+- is your app on the apple store?
+- do you have an app for the iphone?
+- do you have an app for the android?
+
+## intent:gps_tracking
+- do you provide gps tracking?
+- can i track my child with gps while he's in your care?
+- how can i track my child while using your service?
+- do you use gps?
+
+## intent:service_drivers
+- will I have the same driver?
+- how often do drivers change?
+- can i keep the same driver?
+- do you rotate your drivers?
+- do you assign drivers so they are familiar to the kids?
+
+## intent:cancellation_policy
+- what is your cancellation policy?
+- what happens if i cancel?
+- is there a cancellation fee?
+- what's the fee to cancel?
+- is there a fee to cancel?
+- if i cancel can i get any of my money back?
+
+## intent:service_breaks
+- do you pause for school breaks?
+- when do you break during the year?
+- do you offer service during school breaks?
+- do you offer service during the summer?
+- do you service rides over the summer?
+
+## intent:military_discounts
+- do you have a military discount?
+- do you offer military discounts?
+- can i get a discount for military service?
+
+## intent:driver_presence
+- how will my child find their driver?
+- where will my child look for his driver?
+- how will the driver connect with my child?
+- how will my child know where to meet his driver?
+- where do my child meet the driver?
+
+## intent:registration
+- how do i register for your service?
+- where do i register?
+- how do i signup for your service?
+- where do i signup when i'm ready to get started?
+- can i signup online?
+
+## intent:sickdays
+- what happens if my child is sick or absent?
+- will I get a credit if my child is sick?
+- how do you handle sick days?
+- am i charged for sick days?
+- can i get a credit for sick days?
+
+## intent:transportation_times
+- what time will my child be picked up?
+- what are pickup and drop off times?
+- when will i know what the pickup time is?
+- how do pickup times work?
+- can i specify my child's pickup time?
+- how flexible are pickup times for my child?

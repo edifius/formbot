@@ -1,0 +1,826 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hi, my name is bill",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "bill",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "i'm cheryl",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "cheryl",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "hi, abby. it's nice to talk to you. my name's julie",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 46,
+            "end": 51,
+            "value": "julie",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "good day. hey. i'm olivia odom.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "olivia",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "joe",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "joe",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "charlie nichols",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "charlie",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "hey. jonathan",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "jonathan",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "i'm sherelle",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "sherelle",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "hi, abby. my name's monica",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "monica",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "good day. i'm liz joshi.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "liz",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "diana",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "diana",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "nicolos cage",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "nicolos",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "hey. shawn",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "suzy",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "hi, my name is george",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "george",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "i'm betsy",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "betsy",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "hi, abby. it's nice to talk to you. my name's cheryl",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 46,
+            "end": 52,
+            "value": "cheryl",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "good day. hey. i'm nancy franks.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "nancy",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "chloe",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "chloe",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "alexandra nichols",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "alexandra",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+        "text": "hey. suzy",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "suzy",
+            "entity": "caller_first_name"
+          }
+        ]
+      },
+      {
+      "text": "Hello",
+      "intent": "greet",
+      "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+      "text": "good day",
+      "intent": "greet",
+      "entities": []
+      },
+      {
+        "text": "top of the morning to you",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hola",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good afternoon",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning to you",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "pretty good. pretty good. thanks for asking.",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "i'm good",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "i'm alright",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "could be better. but, thanks",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "could be better",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "doing as well as can be expected",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "i'm doin' okay",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "doing pretty good",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "i guess as well as can be expected. thanks",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "could be better",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "so-so",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "doing so-so",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "ok. but could be better",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "well. thanks for asking",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "ok. appreciate you asking.",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "doing okay. thanks.",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "okay. appreciate you asking.",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "pretty good. thanks.",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "can't complain",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "doing alright",
+        "intent": "greet_feeling",
+        "entities": []
+      },
+      {
+        "text": "i'm good. how are you?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "i'm ok. all good with you?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "can't complain. You ok?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "there's no snow here. so i'm good. how are you doing?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "i'm fine. you ok?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "i have a cold but other than that, i'm ok. you doing good?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "fine. thanks for asking. how are you doing?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "doing good. and you?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "a bit under the weather. what about you?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "good, good. and you?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "i'm doing so-so. how are you?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "as best as can be expected. how's things in your world?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "hanging in there. are you being treated okay?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "thanks for asking. i'm doing alright. and you?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "i'm doing so-so. you okay?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "can't complain. and you?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "so-so. what about you? is all well in you neck of the woods?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "good, good. how are things in your world?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "can't complain. how are you doing? everybody treating you alright?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "thanks for asking. i'm doing pretty good. you doing good?",
+        "intent": "inform_greet_with_question",
+        "entities": []
+      },
+      {
+        "text": "Goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Bye now",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "chat with you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "have a good day",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Later dude",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye now",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "talk with you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "until next time",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "have a good one",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye now",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "until next time",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "that's all for now",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "have a good day",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "have a good one",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see you",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "talk later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "sounds good",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "no problem",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "alright",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "no worries",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "yes, i do",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "yes",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "okay",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "okey dokey",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "uh-huh",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "yup",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "yupper",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "absolutely",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "yepper",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "yes, ma'am",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "yes, sir",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "sure",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "no",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nope",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nothing else",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "not at the moment",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "naw",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nope",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nada",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "uh-uh",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nay",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "naw",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nah",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no way",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "negative",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "please don't",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no sir",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no siree",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "out of the question",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "fat chance",
+        "intent": "deny",
+        "entities": []
+      }
+    ]
+  }
+}
