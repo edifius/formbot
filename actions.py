@@ -65,12 +65,15 @@ class EmergencyForm(FormAction):
                domain: Dict[Text, Any]) -> List[Dict]:
         """Define what the form has to do
             after all required slots are filled"""
+        body = "From: {}\n Callback Number: {}\n Emergency Message: {}".format(tracker.get_slot("caller_first_name"), tracker.get_slot("caller_callback_number"), tracker.get_slot("caller_message"))
 
-        clientTwilio.messages.create(
-                to="+16194837869",
-                from_="+16193040039",
-                body="Congrats!"
-        )
+        numbers = ["+16194837869", "+17708456280"]
+        for number in numbers:
+            clientTwilio.messages.create(
+                    to=number,
+                    from_="+16193040039",
+                    body=body
+            )
         # utter submit template
         dispatcher.utter_template('utter_confirm_message', tracker)
         return []
