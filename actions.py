@@ -45,7 +45,7 @@ class EmergencyForm(FormAction):
                                             intent="inform"),
 
                 "caller_callback_number": self.from_entity(entity="caller_callback_number",
-                                            intent="phone_number"),
+                                            intent="inform"),
 
                 "caller_message": self.from_text()}
 
