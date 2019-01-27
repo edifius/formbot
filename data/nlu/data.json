@@ -2,6 +2,78 @@
     "rasa_nlu_data": {
       "common_examples": [
         {
+          "text": "6194899898",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 0,
+              "end": 10,
+              "value": "6194899898",
+              "entity": "caller_callback_number"
+            }
+          ]
+        },
+        {
+          "text": "8937483748",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 0,
+              "end": 10,
+              "value": "8937483748",
+              "entity": "caller_callback_number"
+            }
+          ]
+        },
+        {
+          "text": "7485958384",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 0,
+              "end": 10,
+              "value": "7485958384",
+              "entity": "caller_callback_number"
+            }
+          ]
+        },
+        {
+          "text": "6743938475",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 0,
+              "end": 10,
+              "value": "6743938475",
+              "entity": "caller_callback_number"
+            }
+          ]
+        },
+        {
+          "text": "My phone number is 8374859384",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 19,
+              "end": 29,
+              "value": "8374859384",
+              "entity": "caller_callback_number"
+            }
+          ]
+        },
+        {
+          "text": "its 8374959058",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 4,
+              "end": 14,
+              "value": "8374959058",
+              "entity": "caller_callback_number"
+            }
+          ]
+        },
+        {
           "text": "hi, my name is Bill",
           "intent": "inform",
           "entities": [
@@ -180,6 +252,12 @@
               "entity": "caller_first_name"
             }
           ]
+        }
+      ],
+      "regex_features": [
+        {
+          "pattern": "[0-9]{10}",
+          "name": "caller_callback_number"
         }
       ]
     }
