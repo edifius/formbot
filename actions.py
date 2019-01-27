@@ -30,7 +30,7 @@ class EmergencyForm(FormAction):
     def required_slots(tracker: Tracker) -> List[Text]:
         """A list of required slots that the form has to fill"""
 
-        return ["caller_first_name", "caller_last_name", "caller_callback_number",
+        return ["caller_first_name", "caller_callback_number",
                 "caller_message"]
 
     def slot_mappings(self):
@@ -42,9 +42,6 @@ class EmergencyForm(FormAction):
             or a list of them, where a first match will be picked"""
 
         return {"caller_first_name": self.from_entity(entity="caller_first_name",
-                                            intent="inform"),
-
-                "caller_last_name": self.from_entity(entity="caller_last_name",
                                             intent="inform"),
 
                 "caller_callback_number": self.from_entity(entity="caller_callback_number",
