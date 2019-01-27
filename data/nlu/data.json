@@ -2,6 +2,102 @@
     "rasa_nlu_data": {
       "common_examples": [
         {
+          "text": "hi, my name is Bill",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 15,
+              "end": 19,
+              "value": "Bill",
+              "entity": "caller_first_name"
+            }
+          ]
+        },
+        {
+          "text": "i'm Cheryl",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 4,
+              "end": 10,
+              "value": "Cheryl",
+              "entity": "caller_first_name"
+            }
+          ]
+        },
+        {
+          "text": "hi, abby. it's nice to talk to you. my name's Julie",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 46,
+              "end": 51,
+              "value": "Julie",
+              "entity": "caller_first_name"
+            }
+          ]
+        },
+        {
+          "text": "good day. hey. i'm Olivia Odom.",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 19,
+              "end": 25,
+              "value": "Olivia",
+              "entity": "caller_first_name"
+            },
+            {
+                "start": 26,
+                "end": 30,
+                "value": "Olivia",
+                "entity": "caller_last_name"
+              }
+          ]
+        },
+        {
+          "text": "Joe",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 0,
+              "end": 3,
+              "value": "Joe",
+              "entity": "caller_first_name"
+            }
+          ]
+        },
+        {
+          "text": "Charlie Nichols",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 0,
+              "end": 7,
+              "value": "Charlie",
+              "entity": "caller_first_name"
+            },
+            {
+                "start": 8,
+                "end": 15,
+                "value": "Nichols",
+                "entity": "caller_last_name"
+              }
+          ]
+        },
+        {
+          "text": "hey. Jonathan",
+          "intent": "inform",
+          "entities": [
+            {
+              "start": 5,
+              "end": 13,
+              "value": "Jonathan",
+              "entity": "caller_first_name"
+            }
+          ]
+        },
+        {
           "text": "Adrian",
           "intent": "inform",
           "entities": [

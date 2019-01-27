@@ -1,0 +1,387 @@
+{
+    "rasa_nlu_data": {
+      "common_examples": [
+        {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+        },
+        {
+          "text": "hello",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "Hi",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "howdy",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "hi",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "hi there",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "hey",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "hi",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "hello there",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "hello",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+        "text": "good day",
+        "intent": "greet",
+        "entities": []
+        },
+        {
+          "text": "top of the morning to you",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "hey there",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "hola",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "good morning",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "good afternoon",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "good evening",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "good morning to you",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "hey there",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "hello there",
+          "intent": "greet",
+          "entities": []
+        },
+        {
+          "text": "Goodbye",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "Bye now",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "bye bye",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "chat with you later",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "Later",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "have a good day",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "Later dude",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "later",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "bye now",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "talk with you later",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "until next time",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "have a good one",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "bye now",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "until next time",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "that's all for now",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "have a good day",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "have a good one",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "see you",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "talk later",
+          "intent": "goodbye",
+          "entities": []
+        },
+        {
+          "text": "sounds good",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "no problem",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "alright",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "no worries",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "yes, i do",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "yep",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "yes",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "yeah",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "okay",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "okey dokey",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "uh-huh",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "yup",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "yupper",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "absolutely",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "yepper",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "yes, ma'am",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "yes, sir",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "sure",
+          "intent": "confirm",
+          "entities": []
+        },
+        {
+          "text": "no",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "nope",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "nothing else",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "not at the moment",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "naw",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "no",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "nope",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "nada",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "uh-uh",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "nay",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "naw",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "nah",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "no way",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "negative",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "please don't",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "no sir",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "no siree",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "out of the question",
+          "intent": "deny",
+          "entities": []
+        },
+        {
+          "text": "fat chance",
+          "intent": "deny",
+          "entities": []
+        }
+      ]
+    }
+  }
+  
