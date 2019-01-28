@@ -12,9 +12,6 @@ from twilio.rest import Client
 
 #account_sid = os.environ["TWILIO_ACCOUNT_SID"]
 
-account_sid = "AC8dd7c3947acb406b1dddd6a4bfeedc89"
-auth_token = "2bf75a7799c79bca152d423526132d14"
-
 clientTwilio = Client(account_sid, auth_token)
 
 class EmergencyForm(FormAction):
